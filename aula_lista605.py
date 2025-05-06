@@ -115,7 +115,7 @@
 #     if x < menor:
 #         menor = x
 # print(menor)
-
+##############
 # crie um programa que le 6 valores inteiros e, em seguida, mostre na tela o valores lidos
 # valores = []
 # for i in range(6):
@@ -128,18 +128,89 @@
 #ler um conjunto de numeros reais, armazenando-os em lista e calcular o quadrado das componentes desta lista, armazenando em outra lista.os
 #conjuntos têm 10 elementos cada.Imprimir todos os conjuntos
 
-num_reais = []
-num_quadrado = []
-for i in range(10):
-    num = float(input("Insira número real: "))
-    num_reais.append(num)
+# num_reais = []
+# num_quadrado = []
+# for i in range(10):
+#     num = float(input("Insira número real: "))
+#     num_reais.append(num)
 
-for x in num_reais:
-    quadrado = x * x
-    num_quadrado.append(quadrado)
-print(num_reais)
-print(num_quadrado)
+# for x in num_reais:
+#     quadrado = x * x
+#     num_quadrado.append(quadrado)
+# print(num_reais)
+# print(num_quadrado)
 #tinha que sair do for
+
+#3__Leia uma lista de 10 posições. Contar e escrever quantos valores pares ela possui.
+
+# posicoes = []
+
+# for i in range (10):
+#     numero = int(input("Insira número: "))
+#     posicoes.append(numero)
+
+# print("a lista possui ", i, "posições")
+# print(posicoes)
+
+#4__Faça um programa que receba do usuário um vetor com 10 posições. Em seguida deverá ser impresso o maior e o menor elemento do vetor.
+
+# vetor = []
+
+# for i in range(10):
+#     elemento = int(input("insira elemento:"))
+#     vetor.append(elemento)
+# print("O maior elemento do vetor é: ",max(vetor))
+# print("O menor elemento do vetor é: ",min(vetor))
+
+# #5__Faça um programa que receba 6 números inteiros e mostre: 
+#  Os números pares digitados; 
+# A soma dos números pares digitados;
+# Os números ímpares digitados; 
+# A quantidade de números ímpares digitados;
+
+# num_inteiro = []
+# pares = []
+# impares = []
+# for i in range (6):
+#     numero = int(input("insira número inteiro: "))
+#     num_inteiro.append(numero)
+# # pares = numero / 2
+# print("os números pares digitados são: ")
+# soma = 0
+# for x in num_inteiro:
+#     if x % 2 == 0:
+#         par = x
+#         soma = soma + x
+#         pares.append(par)
+#     else:
+#         impar = x
+#         impares.append(impar)
+        
+# print("Os números pares são: ",pares)
+# print("Soma dos números pares: ",soma)
+# print("Os números ímpares são: ",impares)
+# print("Quatidade de números impares: ",len(impares))
+
+#6__Leia um vetor com 20 números inteiros. Escreva os elementos do vetor eliminando elementos repetidos.
+
+# numeros = []
+# for i in range(20):
+#     num = int(input(f"Digite o {i+1}º número inteiro: "))
+#     numeros.append(num)
+
+# sem_repetidos = []
+# for num in numeros:
+#     if num not in sem_repetidos:
+#         sem_repetidos.append(num)
+
+# print("\nNúmeros sem repetição:")
+# print(sem_repetidos)
+
+
+
+
+
+
 
 
 
