@@ -71,6 +71,9 @@ for x in notas:
     soma = soma + x
 media = soma /len(notas)
 
+print("as notas são: ")
 for x in notas:
     print(x)
-    print("a media das notas é: ",media)
+print("a media das cinco notas: ",media)
+print("a maior nota: ",max(notas))
+print("a menor nota: ",min(notas))
